@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B256EA6F-7371-45D5-9118-3A626A7E7A2D}</ProjectGuid>
+    <RootNamespace>DataStructure_Algorithm</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D "_CRT_SECURE_NO_DEPRECATE" %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1017_装箱问题.cpp" />
+    <ClCompile Include="1088_滑雪.cpp" />
+    <ClCompile Include="1183_反正切函数的应用.cpp" />
+    <ClCompile Include="1190_生日蛋糕.cpp" />
+    <ClCompile Include="1191_棋盘分割.cpp" />
+    <ClCompile Include="1308_Is It A Tree.cpp" />
+    <ClCompile Include="1321_棋盘问题.cpp" />
+    <ClCompile Include="1326_Mileage Bank.cpp" />
+    <ClCompile Include="1328_Radar Installation.cpp" />
+    <ClCompile Include="1657_Distance_on_Chessboard.cpp" />
+    <ClCompile Include="1661_帮助 Jimmy.cpp" />
+    <ClCompile Include="1664_放苹果.cpp" />
+    <ClCompile Include="1724_ROADS.cpp" />
+    <ClCompile Include="1833_排列.cpp" />
+    <ClCompile Include="1835_宇航员.cpp" />
+    <ClCompile Include="1936_全在其中.cpp" />
+    <ClCompile Include="1_多项式加法.cpp" />
+    <ClCompile Include="2000_金币.cpp" />
+    <ClCompile Include="2386_Lake Counting.cpp" />
+    <ClCompile Include="2393_Yogurt factory.cpp" />
+    <ClCompile Include="2406_字符串乘方.cpp" />
+    <ClCompile Include="2456_Aggressive cows.cpp" />
+    <ClCompile Include="2479_最大子段和问题变体（左右不相交子段和）.cpp" />
+    <ClCompile Include="2488_骑士游历.cpp" />
+    <ClCompile Include="2677_肿瘤检测.cpp" />
+    <ClCompile Include="2677_肿瘤检测_2014.cpp" />
+    <ClCompile Include="2680_化验诊断.cpp" />
+    <ClCompile Include="2692_假币问题.cpp" />
+    <ClCompile Include="2694_逆波兰表达式.cpp" />
+    <ClCompile Include="2703_骑车与走路.cpp" />
+    <ClCompile Include="2706_麦森数.cpp" />
+    <ClCompile Include="2712_细菌繁殖.cpp" />
+    <ClCompile Include="2713_肿瘤面积.cpp" />
+    <ClCompile Include="2715_谁拿了最多奖学金.cpp" />
+    <ClCompile Include="2723_不吉利日期.cpp" />
+    <ClCompile Include="2733_判断闰年.cpp" />
+    <ClCompile Include="2734_十进制到八进制.cpp" />
+    <ClCompile Include="2735_八进制到十进制.cpp" />
+    <ClCompile Include="2738_实数加法.cpp" />
+    <ClCompile Include="2739_计算对数.cpp" />
+    <ClCompile Include="2742_统计字符数.cpp" />
+    <ClCompile Include="2743_字符串判等.cpp" />
+    <ClCompile Include="2744_子串.cpp" />
+    <ClCompile Include="2745_显示器.cpp" />
+    <ClCompile Include="2745_显示器2013d.cpp" />
+    <ClCompile Include="2746_约瑟夫问题.cpp" />
+    <ClCompile Include="2747_数字方格.cpp" />
+    <ClCompile Include="2748_全排列2014.cpp" />
+    <ClCompile Include="2750_鸡兔同笼.cpp" />
+    <ClCompile Include="2753_菲波那契数列.cpp" />
+    <ClCompile Include="2754_八皇后.cpp" />
+    <ClCompile Include="2756_二叉树.cpp" />
+    <ClCompile Include="2757_最长上升子序列.cpp" />
+    <ClCompile Include="2760_数字三角形.cpp" />
+    <ClCompile Include="2764_数根.cpp" />
+    <ClCompile Include="2765_八进制小数.cpp" />
+    <ClCompile Include="2766_最大子矩阵.cpp" />
+    <ClCompile Include="2767_简单密码.cpp" />
+    <ClCompile Include="2774_木材加工cpp.cpp" />
+    <ClCompile Include="2786_Pell数列.cpp" />
+    <ClCompile Include="2787_算24.cpp" />
+    <ClCompile Include="2787算24.cpp" />
+    <ClCompile Include="2790_迷宫.cpp" />
+    <ClCompile Include="2792_集合加法.cpp" />
+    <ClCompile Include="2795_金银岛.cpp" />
+    <ClCompile Include="2798_2进制转化为16进制.cpp" />
+    <ClCompile Include="2799_浮点数格式.cpp" />
+    <ClCompile Include="2800_垂直直方图.cpp" />
+    <ClCompile Include="2801_words_search.cpp" />
+    <ClCompile Include="2802_小游戏.cpp" />
+    <ClCompile Include="2804_词典.cpp" />
+    <ClCompile Include="2806_公共子序列.cpp" />
+    <ClCompile Include="2808_校门外的树.cpp" />
+    <ClCompile Include="2809_计算2的N次方.cpp" />
+    <ClCompile Include="2810_完美立方.cpp" />
+    <ClCompile Include="2811_熄灯问题.cpp" />
+    <ClCompile Include="2813_画家问题.cpp" />
+    <ClCompile Include="2814_拨钟问题.cpp" />
+    <ClCompile Include="2815_城堡问题.cpp" />
+    <ClCompile Include="2816_红与黑.cpp" />
+    <ClCompile Include="2818_密码.cpp" />
+    <ClCompile Include="2819_W的密码.cpp" />
+    <ClCompile Include="2820_古代密码.cpp" />
+    <ClCompile Include="2950_摘花生.cpp" />
+    <ClCompile Include="2951_浮点数求高精度幂.cpp" />
+    <ClCompile Include="2952_循环数.cpp" />
+    <ClCompile Include="2964_日历问题.cpp" />
+    <ClCompile Include="2965_玛雅历.cpp" />
+    <ClCompile Include="2966_时区转换.cpp" />
+    <ClCompile Include="2967_特殊日历计算.cpp" />
+    <ClCompile Include="2972_确定进制.cpp" />
+    <ClCompile Include="2973_Skew数.cpp" />
+    <ClCompile Include="2974_487-3279.cpp" />
+    <ClCompile Include="2975_Caesar 密码.cpp" />
+    <ClCompile Include="2976_All in All.cpp" />
+    <ClCompile Include="2977_生理周期.cpp" />
+    <ClCompile Include="2980_大整数乘法.cpp" />
+    <ClCompile Include="2981_大整数加法.cpp" />
+    <ClCompile Include="2982_Sudoku.cpp" />
+    <ClCompile Include="2_字符串插入.cpp" />
+    <ClCompile Include="3248_最大公约数.cpp" />
+    <ClCompile Include="3421_螺旋加密.cpp" />
+    <ClCompile Include="38_献给阿尔吉侬的花束.cpp" />
+    <ClCompile Include="4001_抓住那头牛.cpp" />
+    <ClCompile Include="4001_抓住那头牛_2014.cpp" />
+    <ClCompile Include="4002_谁是你的潜在朋友.cpp" />
+    <ClCompile Include="4013_中位数.cpp" />
+    <ClCompile Include="4022_买房子.cpp" />
+    <ClCompile Include="4103_踩方格.cpp" />
+    <ClCompile Include="4105_拯救公主.cpp" />
+    <ClCompile Include="4110_圣诞老人的礼物-Santa Clau’s Gifts.cpp" />
+    <ClCompile Include="4117_简单的整数划分问题.cpp" />
+    <ClCompile Include="4119_复杂的整数划分问题.cpp" />
+    <ClCompile Include="4133_垃圾炸弹.cpp" />
+    <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="B_石头剪刀布.cpp" />
+    <ClCompile Include="D_最大上升子序列和.cpp" />
+    <ClCompile Include="D_确定进制.cpp" />
+    <ClCompile Include="Floyd.cpp" />
+    <ClCompile Include="F_Is It A Tree.cpp" />
+    <ClCompile Include="G_丛林中的路.cpp" />
+    <ClCompile Include="POMDP毕设状态数计算.cpp" />
+    <ClCompile Include="字符串操作常用函数实例.cpp" />
+    <ClCompile Include="最小生成树.cpp" />
+    <ClCompile Include="InsertSort.cpp" />
+    <ClCompile Include="MyKit.cpp" />
+    <ClCompile Include="SelectSort.cpp" />
+    <ClCompile Include="Shell.cpp" />
+    <ClCompile Include="UnionFindSet.cpp" />
+    <ClCompile Include="并查集.cpp" />
+    <ClCompile Include="最简真分数.cpp" />
+    <ClCompile Include="猴子吃桃.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyKit.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

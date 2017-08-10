@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\2016上机考试">
+      <UniqueIdentifier>{1295df9a-b54c-4837-994d-e8a59360c861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DS">
+      <UniqueIdentifier>{e2d281ac-4bb1-47c9-8097-1f5f5a6a2874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DS\DS_chapter2">
+      <UniqueIdentifier>{85cc8ebe-d622-42d1-9642-06541584b17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\深搜">
+      <UniqueIdentifier>{6b13dfa6-c5fe-4494-b11a-4de93d7f5de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\广搜">
+      <UniqueIdentifier>{24b99cae-6e78-4e93-96d9-48f3e42a586e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\二分与贪心">
+      <UniqueIdentifier>{9956c588-1415-4404-9a0e-555377874850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mooc算法期末上机">
+      <UniqueIdentifier>{58d4449e-c795-4643-a1a6-8bc05a06485b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit2简单计算">
+      <UniqueIdentifier>{15efaadf-a608-45f9-b3eb-2d65ccddf3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit3进制转换">
+      <UniqueIdentifier>{a48bea64-dfa8-463b-aafa-5551b750e916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit5日历问题">
+      <UniqueIdentifier>{db33c269-54ff-4b89-aca9-3d61d5a3148a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit4字符串">
+      <UniqueIdentifier>{a30b9fa2-4264-46a2-b12d-21dbceef01d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit6模拟">
+      <UniqueIdentifier>{8bc433f7-07f3-4f91-9628-356113cc1d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit7高精度计算">
+      <UniqueIdentifier>{bf5539cc-9c54-4e74-a153-a42f71a3d193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit8模拟">
+      <UniqueIdentifier>{f7a140f2-147e-488d-b9e1-f158cec7e2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit9递归">
+      <UniqueIdentifier>{733c5f69-03a3-4ca7-bece-fc5021d5045c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\unit10动态规划">
+      <UniqueIdentifier>{6e2b07f6-8059-4a64-93e4-c99c7d5fbb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2011">
+      <UniqueIdentifier>{ab6f2d62-2580-4550-85f3-3de48ca58f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2012">
+      <UniqueIdentifier>{2592d70c-1fe2-405d-a4e7-117660433e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2013">
+      <UniqueIdentifier>{62266816-c4a4-463b-93db-5dcf5b2840c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2014">
+      <UniqueIdentifier>{2f0243e9-257c-4d6a-9a2a-18744d430fb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Floyd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyKit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionFindSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1657_Distance_on_Chessboard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2808_校门外的树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2801_words_search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2713_肿瘤面积.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2677_肿瘤检测.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2800_垂直直方图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2715_谁拿了最多奖学金.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2767_简单密码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2680_化验诊断.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2973_Skew数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2734_十进制到八进制.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2735_八进制到十进制.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2765_八进制小数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2742_统计字符数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2976_All in All.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2820_古代密码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2804_词典.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2799_浮点数格式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2733_判断闰年.cpp">
+      <Filter>源文件\unit5日历问题</Filter>
+    </ClCompile>
+    <ClCompile Include="2712_细菌繁殖.cpp">
+      <Filter>源文件\unit5日历问题</Filter>
+    </ClCompile>
+    <ClCompile Include="2965_玛雅历.cpp">
+      <Filter>源文件\unit5日历问题</Filter>
+    </ClCompile>
+    <ClCompile Include="2966_时区转换.cpp">
+      <Filter>源文件\unit5日历问题</Filter>
+    </ClCompile>
+    <ClCompile Include="2723_不吉利日期.cpp">
+      <Filter>源文件\unit5日历问题</Filter>
+    </ClCompile>
+    <ClCompile Include="2967_特殊日历计算.cpp">
+      <Filter>源文件\unit5日历问题</Filter>
+    </ClCompile>
+    <ClCompile Include="2746_约瑟夫问题.cpp">
+      <Filter>源文件\unit6模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2950_摘花生.cpp">
+      <Filter>源文件\unit6模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2745_显示器.cpp">
+      <Filter>源文件\unit6模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2764_数根.cpp">
+      <Filter>源文件\unit6模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2952_循环数.cpp">
+      <Filter>源文件\unit6模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="1835_宇航员.cpp">
+      <Filter>源文件\unit6模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="1833_排列.cpp">
+      <Filter>源文件\unit6模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2981_大整数加法.cpp">
+      <Filter>源文件\unit7高精度计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2980_大整数乘法.cpp">
+      <Filter>源文件\unit7高精度计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2809_计算2的N次方.cpp">
+      <Filter>源文件\unit7高精度计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2738_实数加法.cpp">
+      <Filter>源文件\unit7高精度计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2951_浮点数求高精度幂.cpp">
+      <Filter>源文件\unit7高精度计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2706_麦森数.cpp">
+      <Filter>源文件\unit7高精度计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2977_生理周期.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2692_假币问题.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2810_完美立方.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2739_计算对数.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2747_数字方格.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2811_熄灯问题.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2813_画家问题.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2814_拨钟问题.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="1_多项式加法.cpp">
+      <Filter>源文件\DS\DS_chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="1183_反正切函数的应用.cpp">
+      <Filter>源文件\unit8模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="2_字符串插入.cpp">
+      <Filter>源文件\DS\DS_chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="2753_菲波那契数列.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2756_二叉树.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2694_逆波兰表达式.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2816_红与黑.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2754_八皇后.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2815_城堡问题.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2790_迷宫.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2802_小游戏.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="1321_棋盘问题.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="1191_棋盘分割.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2760_数字三角形.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2757_最长上升子序列.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2806_公共子序列.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="1661_帮助 Jimmy.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2795_金银岛.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="1088_滑雪.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2786_Pell数列.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2792_集合加法.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2774_木材加工cpp.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2479_最大子段和问题变体（左右不相交子段和）.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2766_最大子矩阵.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="D_确定进制.cpp">
+      <Filter>源文件\2016上机考试</Filter>
+    </ClCompile>
+    <ClCompile Include="2386_Lake Counting.cpp">
+      <Filter>源文件\2016上机考试</Filter>
+    </ClCompile>
+    <ClCompile Include="1308_Is It A Tree.cpp">
+      <Filter>源文件\2016上机考试</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集.cpp">
+      <Filter>源文件\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树.cpp">
+      <Filter>源文件\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="1724_ROADS.cpp">
+      <Filter>源文件\深搜</Filter>
+    </ClCompile>
+    <ClCompile Include="2488_骑士游历.cpp">
+      <Filter>源文件\深搜</Filter>
+    </ClCompile>
+    <ClCompile Include="2982_Sudoku.cpp">
+      <Filter>源文件\深搜</Filter>
+    </ClCompile>
+    <ClCompile Include="1190_生日蛋糕.cpp">
+      <Filter>源文件\深搜</Filter>
+    </ClCompile>
+    <ClCompile Include="4001_抓住那头牛.cpp">
+      <Filter>源文件\广搜</Filter>
+    </ClCompile>
+    <ClCompile Include="4110_圣诞老人的礼物-Santa Clau’s Gifts.cpp">
+      <Filter>源文件\二分与贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="1328_Radar Installation.cpp">
+      <Filter>源文件\二分与贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="2456_Aggressive cows.cpp">
+      <Filter>源文件\二分与贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="2393_Yogurt factory.cpp">
+      <Filter>源文件\二分与贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="4133_垃圾炸弹.cpp">
+      <Filter>源文件\mooc算法期末上机</Filter>
+    </ClCompile>
+    <ClCompile Include="3248_最大公约数.cpp">
+      <Filter>源文件\mooc算法期末上机</Filter>
+    </ClCompile>
+    <ClCompile Include="4117_简单的整数划分问题.cpp">
+      <Filter>源文件\mooc算法期末上机</Filter>
+    </ClCompile>
+    <ClCompile Include="猴子吃桃.cpp">
+      <Filter>源文件\mooc算法期末上机</Filter>
+    </ClCompile>
+    <ClCompile Include="38_献给阿尔吉侬的花束.cpp">
+      <Filter>源文件\mooc算法期末上机</Filter>
+    </ClCompile>
+    <ClCompile Include="4119_复杂的整数划分问题.cpp">
+      <Filter>源文件\mooc算法期末上机</Filter>
+    </ClCompile>
+    <ClCompile Include="4105_拯救公主.cpp">
+      <Filter>源文件\mooc算法期末上机</Filter>
+    </ClCompile>
+    <ClCompile Include="1017_装箱问题.cpp">
+      <Filter>源文件\unit2简单计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2818_密码.cpp">
+      <Filter>源文件\unit2简单计算</Filter>
+    </ClCompile>
+    <ClCompile Include="2798_2进制转化为16进制.cpp">
+      <Filter>源文件\unit3进制转换</Filter>
+    </ClCompile>
+    <ClCompile Include="2964_日历问题.cpp">
+      <Filter>源文件\unit5日历问题</Filter>
+    </ClCompile>
+    <ClCompile Include="2703_骑车与走路.cpp">
+      <Filter>源文件\2016上机考试</Filter>
+    </ClCompile>
+    <ClCompile Include="2975_Caesar 密码.cpp">
+      <Filter>源文件\unit4字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串操作常用函数实例.cpp">
+      <Filter>源文件\unit4字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="2972_确定进制.cpp">
+      <Filter>源文件\unit3进制转换</Filter>
+    </ClCompile>
+    <ClCompile Include="3421_螺旋加密.cpp">
+      <Filter>源文件\2016上机考试</Filter>
+    </ClCompile>
+    <ClCompile Include="2787算24.cpp">
+      <Filter>源文件\unit9递归</Filter>
+    </ClCompile>
+    <ClCompile Include="2974_487-3279.cpp">
+      <Filter>源文件\unit4字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="2787_算24.cpp">
+      <Filter>源文件\unit10动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="2744_子串.cpp">
+      <Filter>源文件\unit4字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="2743_字符串判等.cpp">
+      <Filter>源文件\unit4字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="1936_全在其中.cpp">
+      <Filter>源文件\unit4字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="2819_W的密码.cpp">
+      <Filter>源文件\unit4字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="2750_鸡兔同笼.cpp">
+      <Filter>源文件\2011</Filter>
+    </ClCompile>
+    <ClCompile Include="4002_谁是你的潜在朋友.cpp">
+      <Filter>源文件\2011</Filter>
+    </ClCompile>
+    <ClCompile Include="4013_中位数.cpp">
+      <Filter>源文件\2011</Filter>
+    </ClCompile>
+    <ClCompile Include="4022_买房子.cpp">
+      <Filter>源文件\2011</Filter>
+    </ClCompile>
+    <ClCompile Include="1664_放苹果.cpp">
+      <Filter>源文件\2011</Filter>
+    </ClCompile>
+    <ClCompile Include="最简真分数.cpp">
+      <Filter>源文件\2012</Filter>
+    </ClCompile>
+    <ClCompile Include="D_最大上升子序列和.cpp">
+      <Filter>源文件\2012</Filter>
+    </ClCompile>
+    <ClCompile Include="F_Is It A Tree.cpp">
+      <Filter>源文件\2012</Filter>
+    </ClCompile>
+    <ClCompile Include="1326_Mileage Bank.cpp">
+      <Filter>源文件\2012</Filter>
+    </ClCompile>
+    <ClCompile Include="G_丛林中的路.cpp">
+      <Filter>源文件\2012</Filter>
+    </ClCompile>
+    <ClCompile Include="2000_金币.cpp">
+      <Filter>源文件\2013</Filter>
+    </ClCompile>
+    <ClCompile Include="B_石头剪刀布.cpp">
+      <Filter>源文件\2013</Filter>
+    </ClCompile>
+    <ClCompile Include="2406_字符串乘方.cpp">
+      <Filter>源文件\2013</Filter>
+    </ClCompile>
+    <ClCompile Include="4103_踩方格.cpp">
+      <Filter>源文件\2013</Filter>
+    </ClCompile>
+    <ClCompile Include="2745_显示器2013d.cpp">
+      <Filter>源文件\2013</Filter>
+    </ClCompile>
+    <ClCompile Include="2677_肿瘤检测_2014.cpp">
+      <Filter>源文件\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="4001_抓住那头牛_2014.cpp">
+      <Filter>源文件\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="2748_全排列2014.cpp">
+      <Filter>源文件\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="POMDP毕设状态数计算.cpp">
+      <Filter>源文件\深搜</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyKit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
